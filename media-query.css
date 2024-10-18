@@ -1,0 +1,50 @@
+
+@media  only screen and (max-width: 850px) {
+  div.card{
+    width: 80%;
+    margin-inline: 10%;
+    margin-block: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #000;
+  }
+} 
+
+@media only screen and (max-width: 550px) {
+  nav.navbar {
+    display: none;
+  }
+  div.card{
+    width: 90%;
+    margin-inline: 5%;
+    margin-block: 1.5rem;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px #000;
+    
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  html{
+    display: flex;
+    justify-content: center;
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-around;
+  }
+  .offer-box{
+    max-width: 60%;
+    margin-inline: 20%;
+  }
+  button#zapper{
+    margin-inline: 40%;
+    font-size: 1.2rem;
+  }
+  
+  section.buy-sell{
+    border-top: 2px solid #ccc;
+    display: flex;
+    justify-content: space-around;
+    margin-block: 18px;
+  }
+}

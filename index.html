@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="media-query.css">
+    <title>Zapper -Web3 Currency</title>
+</head>
+<body>
+    <header>
+      <img id="logo" src="images/logo.png">
+      <nav class="navbar">
+        <a href="#">Buy</a>
+        <a href="#">Sell</a>
+        <a href="#">Create an offer</a>
+      </nav>
+      <button id="button-1">login</button>
+      <button>Get Started</button>
+      <img id="frame" src="images/Frame.png">
+    </header>
+    <section class="hero-section">
+      <div class="offer-box">
+        <h1>Find your offer ✨</h1>
+        <form>
+          <!-- Dropdowns for Currency, Buy/Sell, Payment method -->
+          <select name="currency1" id="currency1">
+            <option value="" disabled selected>Currency</option>
+            <option value="btc">Bitcoin (BTC)</option>
+            <option value="eth">Ethereum (ETH)</option>
+            <option value="usdt">Tether (USDT)</option>
+          </select>
+          
+          <select name="buy-sell" id="buy-sell">
+            <option value="" disabled selected>Buy/Sell</option>
+            <option value="buy">Buy</option>
+            <option value="sell">Sell</option>
+          </select>
+        
+          <select name="payment-method" id="payment-method">
+            <option value="" disabled selected>Payment</option>
+            <option value="paypal">PayPal</option>
+            <option value="bank">Bank Transfer</option>
+            <option value="card">Credit/Debit Card</option>
+          </select>
+        
+          <select name="currency2" id="currency2">
+            <option value="" disabled selected>Currency</option>
+            <option value="btc">Bitcoin (BTC)</option>
+            <option value="eth">Ethereum (ETH)</option>
+            <option value="usdt">Tether (USDT)</option>
+          </select>
+        
+          <!-- Input field for "How much" -->
+          <input type="text" placeholder="How much" name="amount">
+          <button type="submit">Find offer</button>
+
+        </form>
+
+      </div>
+      <button id="zapper">Why Zapper?</button>
+    </section>
+    <div class="currency-display">
+      <p>
+        Buy/Sell the favorites with <span>No Fees<super>*</super></span>
+      </p>
+      <img id="currency-pic" src="images/Frame 15.png">
+    </div>
+    <section class="features">
+      <h1>Feature: We think about you</h1>
+      <section class="card-container">
+        <div class="card">
+          <img src="images/SecureEscrow.png" alt="Card Image" class="card-image">
+          <h2 class="card-title">Secured by Escrow</h2>
+          <p class="card-description">
+              This is a simple description about the content of the card. It can have a few lines of text that give information about what the card is about.
+          </p>
+          <a href="#" class="card-link">Learn how Escrow works</a>
+        </div>
+        <div class="card">
+          <img src="images/NewbieFriendly.png" alt="Card Image" class="card-image">
+          <h2 class="card-title">Newbie Friendly</h2>
+          <p class="card-description">
+              This is a simple description about the content of the card. It can have a few lines of text that give information about what the card is about.
+          </p>
+          <a href="#" class="card-link">We always keep you in mind, see more</a>
+        </div>
+        <div class="card">
+          <img src="images/MultiplePayments.png" alt="Card Image" class="card-image">
+          <h2 class="card-title">120+ payment methods</h2>
+          <p class="card-description">
+              This is a simple description about the content of the card. It can have a few lines of text that give information about what the card is about.
+          </p>
+          <a href="#" class="card-link">Discover all payment methods</a>
+        </div>
+        
+      </section>
+      <button class="full-features">Full features</button>
+    </section>
+    <section class="buy-sell">
+      <div class="b-s-container">
+        <span id="buy">Buy</span> 
+        <div class="buy-sell-container">
+          <img src="images/Component 1.png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$10 - $200</span>
+          
+        </div>
+        <div class="buy-sell-container">
+          <img src="images/blur.png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$5 - $1k</span>
+          
+        </div>
+        <div class="buy-sell-container">
+          <img src="images/Component 1 (1).png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$200 - $3.5k</span>
+          
+        </div>
+        
+      </div>
+      <div class="b-s-container">
+        <span id="sell">Sell</span> 
+        <div class="buy-sell-container">
+          <img src="images/Component 1.png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$10 - $200</span>
+          
+        </div>
+        <div class="buy-sell-container">
+          <img src="images/blur.png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$5 - $1k</span>
+          
+        </div>
+        <div class="buy-sell-container">
+          <img src="images/Component 1 (1).png">
+          <span>Zele  1+</span>
+          <span>30,244.12 USD/BTC</span>
+          <span>$200 - $3.5k</span>
+          
+        </div>
+        
+      </div>
+    </section>
+    
+    <section class="signup">
+      <h1>Sign up and sell or buy crypto in 5 minutes with zero commission fees</h1>
+      <button>Get Started</button>
+    </section>
+    <section class="footer">
+      
+      <img src="images/spacio.png">
+      <div>
+        <h3>Product</h3>
+        <a href="#">Sell Bitcoin</a>
+        <a href="#">Buy Bitcoin</a>
+        <a href="#">Sell Ethereum</a>
+        <a href="#">Buy Ethereum</a>
+        
+      </div>
+      <div> 
+        <h3>About Spacio</h3>
+        <a href="#">About Us</a>
+        <a href="#">Fees</a>
+        <a href="#">Terms & Condition</a>
+        <a href="#">Privacy Policiy</a>
+        
+      </div>
+      <div class="flex-shrink">
+        <h3>Support</h3>
+        <a href="#">Moderators</a>
+        <a href="#">FAQ</a>
+        <a href="#">Help center</a>
+        <a href="#">Community</a>
+        
+      </div>
+      
+    </section>
+</body>
+</html>

@@ -1,0 +1,247 @@
+
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+body{
+  min-width: 320px;
+  max-width: 1280px;
+  
+}
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 10px;
+  
+  
+  & button#button-1{
+    color: #000;
+    background-color: #dfdede;
+    transform: translateX(10px);
+  }
+  & button{
+    border: none;
+    outline: none;
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 18px;
+    color: #fff;
+    background-color: #000;
+    font-weight: 450;
+  }
+  
+  & a{
+      text-decoration: none;
+      color: #000;
+      margin-right: 15px;
+  }
+}
+header img#logo{
+  width: 120px;
+  height: auto;
+  
+}
+
+section.hero-section{
+  background-image: url("images/Rectangle 1.png");
+  background-size: cover;
+  padding: 60px 20px;
+  margin-top: 10px;
+  
+  & div.offer-box{
+    background-color: white;
+    padding: 30px 10px;
+  }
+  & .offer-box h1{
+    text-align: center;
+    margin: 1rem 0.3rem 1.8rem;
+    font-size: 2.2rem;
+  }
+  & .offer-box form select{
+    width: 80%;
+    font-size: 1.3rem;
+    padding: 15px 10px;
+    margin: 10px 10%;
+    border-radius: 15px;
+  }
+  
+  & .offer-box form input , .offer-box form button{
+    font-size: 1.2rem;
+    padding: 10px 0px;
+    border-radius: 15px;
+    outline: none;
+    text-align: center;
+    border: 1.2px solid black;
+  }
+  & .offer-box form input{
+    width: 80%;
+    margin-inline: 10%;
+    outline: none;
+    
+  }
+  & .offer-box form button{
+    width: 40%;
+    border-radius: 24px;
+    background-color: aqua;
+    font-weight: 500;
+    margin-inline: 30%;
+    margin-block: 1.2rem;
+    box-shadow: 0px 0px 1px #000;
+  }
+  & button#zapper{
+    font-size: 1.1rem;
+    border: 1.4px solid white;
+    border-radius: 18px;
+    padding: 8px 10px;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    color: white;
+    background: transparent;
+    text-decoration: underline;
+    box-shadow: 0px 0px 5px rgba(255,255,255,0.8);
+    text-shadow: 1.4px 1.4px 2px rgba(255,255,255,0.8);
+    margin-inline: 40%;
+  }
+}
+
+.features  h1{
+  margin-block: 1.3rem;
+}
+
+div.currency-display{
+  border-block: 3px solid #b5b4b4;
+  background-color: yellow/* #ffaf29*/;
+  
+  & p{
+    font-size: 1.3rem;
+    font-weight: 500;
+    text-align: center;
+    margin-block: 1.2rem 1rem;
+    
+    & span{
+      font-style: italic;
+      font-weight: 400;
+    }
+  }
+}
+
+#currency-pic{
+  width: 80%;
+  margin-inline: 10%;
+  margin-block: 15px 10px;
+}
+
+div.card{
+  text-align: center;
+  padding: 15px;
+  
+  & h2,p,a{
+    margin-block: 1.2rem;
+    
+  }
+  & p{
+    font-size: 1.3rem;
+  }
+}
+
+
+.full-features{
+  font-size: 1.2rem;
+  text-align: center;
+  box-shadow: 0px 0px 1.3px #000;
+  border: 1.2px solid #000;
+  border-radius: 15px;
+  outline: none;
+  padding: 10px  8px;
+  /* margin-inline: 40%; */
+  background-color: #fff;
+  transform: translateX(160px);
+  
+}
+
+
+.buy-sell-container {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 10px 8px;
+  margin-block: 1.2rem;
+  margin-inline: 2.5%;
+  border: 1.3px solid #ccc;
+  border-radius: 16px;
+  & img{
+    width: 50px;
+  }
+  
+}
+
+.buy-sell{
+  padding-block: 1rem;
+  border-bottom: 2px solid #ccc;
+
+  & .b-s-container{
+    padding-block: 10px;
+  }
+}
+
+#buy,#sell{
+  font-size: 1.3rem;
+  font-weight: 500;
+  margin-left: 2.5%;
+}
+
+.signup{
+  padding: 25px 10px;
+  text-align: center;
+  background-color: #ff76d6;
+  
+  & h1{
+    margin-block: 10px;
+    font-size: 2rem;
+  }
+  & button{
+    padding: 10px 14px;
+    color: #fff;
+    background-color: #000;
+    font-size: 1.2rem;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+  }
+}
+
+.footer{
+  padding: 30px 10px;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  grid-template-rows: repeat(2,1fr);
+  grid-row-gap: 15px;
+  /* justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap; */
+  color: #fff;
+  background-color: #000;
+  
+  & div{
+    margin-inline: 20px;
+  }
+  & a{
+    display: block;
+    color: #fff;
+    font-size: 1rem;
+    margin-block: 10px;
+  }
+  & img{
+    grid-column: 1/2;
+    width: 100px;
+    height: auto;
+    padding: 20px;
+  }
+  & .flex-shrink{
+    flex-shrink: 1;
+  }
+}
